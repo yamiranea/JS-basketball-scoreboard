@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="index.css" />
+    <script src="index.js"></script>
+  </head>
+  <body>
+    <!-- Abre div contenedor azul -->
+    <div class="rect-container" id="rect-container">
+      <!-- home y guest -->
+      <div class="home">
+        <div><h3>HOME</h3></div>
+        <div id="home-counter" class="counters">0</div>
+        <div class="button-container">
+          <button onclick="add1()" class="buttons" id="button-1">+1</button>
+          <button onclick="add2()" class="buttons" id="button-2">+2</button>
+          <button onclick="add3()" class="buttons" id="button-3">+3</button>
+        </div>
+      </div>
+      <div class="guest">
+        <div><h3>GUEST</h3></div>
+        <div id="guest-counter" class="counters">0</div>
+        <div class="button-container">
+          <button onclick="addone()" class="buttons" id="button-1">+1</button>
+          <button onclick="addtwo()" class="buttons" id="button-2">+2</button>
+          <button onclick="addthree()" class="buttons" id="button-3">+3</button>
+        </div>
+        <!-- cierra home y guest -->
+      </div>
+      <!-- cierra div contenedor azul -->
+    </div>
+  </body>
+</html>
