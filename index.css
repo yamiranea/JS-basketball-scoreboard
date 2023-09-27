@@ -1,14 +1,18 @@
-.rect-container {
+.blue-background-container {
     margin: 0;
     background: #1B244A;
-    width: 575px;
-    height: 385px;
+    width: 600px;
+    height: 450px;
     box-sizing: border-box;
     color: #ffffff;
+   
+}
+.counter-container {
     display: flex;
     justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
 }
-
 .counters {
     width: 155px;
     height: 120px;
@@ -37,7 +41,7 @@ h3 {
     line-height: 35.893px;
 }
 
-.button-container {
+.points-button-container {
     width: 155px;
     flex-shrink: 0;
     box-sizing: border-box;
@@ -47,7 +51,7 @@ h3 {
     margin-top: 26px;
 }
 
-.buttons {
+.points-buttons {
     width: 45px;
     height: 45px;
     flex-shrink: 0;
@@ -61,5 +65,27 @@ h3 {
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
+}
+
+.reset-button-container {
+    width: 100%;
+    display: flex;
+    
+}
+.reset-count-button {
+    width: 155px;
+    height: 45px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    border: 2px solid #F94F6D;
+    background-color: #F94F6D;
+    color: black;
+    text-align: center;
+    font-family: Verdana;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;  
+    margin: 0px auto;
+    margin-top:26px;
 }
 

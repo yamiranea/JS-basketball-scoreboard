@@ -1,5 +1,7 @@
 let homeCount = 0
 let guestCount = 0
+let resetCount = 0
+document.getElementById("reset").textContent = resetCount
 document.getElementById("home-counter").textContent = homeCount 
 document.getElementById("guest-counter").textContent = guestCount
 
@@ -34,4 +36,10 @@ function addtwo() {
 function addthree() {
     guestCount += 3
     document.getElementById("guest-counter").textContent = guestCount; 
+}
+
+function reset() {
+document.getElementById("home-counter").textContent = resetCount
+document.getElementById("guest-counter").textContent = resetCount
+
 }
